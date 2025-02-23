@@ -14,9 +14,13 @@
   justify-content: center;
 }
 
-.carousel-item img {
-  max-height: 500px;
-  object-fit: cover;
+.logo{
+  height: 4em;
+}
+
+.twentytwenty-container {
+  max-width: 100%;
+  height: auto;
 }
 
 .whatsapp-button img {
