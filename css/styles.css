@@ -1,4 +1,4 @@
-.whatsapp-button {
+.whatsapp-button{
   position: fixed;
   background-color: #fff;
   bottom: 20px;
@@ -19,7 +19,7 @@
 
 .carousel-item img {
   width: 100%;
-  height: 800px; /* Altura fija para mantener consistencia */
+  height: auto; /* Altura fija para mantener consistencia */
   object-fit: cover; /* Ajusta la imagen sin deformarla */
 }
 
@@ -27,6 +27,7 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .whatsapp-button:hover {
